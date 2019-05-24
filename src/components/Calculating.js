@@ -11,9 +11,13 @@ const styles = StyleSheet.create({
     padding: 35
   },
   image: {
-    width: 500,
-    height: 500,
+    width: 450,
+    height: 450,
     alignSelf: 'center'
+  },
+  headline: {
+    alignSelf: 'center',
+    fontWeight: 'bold'
   }
 });
 
@@ -104,6 +108,7 @@ class Calculating extends Component {
           source={require('../../assets/logo_transparent.png')}
           style={styles.image}
         />
+        <Headline style={styles.headline}>Ya puede retirar el dedo</Headline>
         {this.renderCalculate()}
       </View>
     );  
