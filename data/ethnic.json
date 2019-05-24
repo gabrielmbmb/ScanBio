@@ -1,254 +1,256 @@
-[
-    {
-        "emoji": "es",
-        "name": "España",
-        "latitude": 40.463669,
-        "longitude": -3.749220
-    },
-    {
-        "emoji": "flag-ad",
-        "name": "Andorra",
-        "latitude": 42.506287,
-        "longitude": 1.521801
-    },
-    {
-        "emoji": "es",
-        "name": "Afganistán",
-        "latitude": 33.939110,
-        "longitude": 67.709953 
-    },
-    {
-        "emoji": "flag-ae",
-        "name": "Emiratos Árabes Unidos",
-        "latitude": 24.488180,
-        "longitude": 54.354950
-    },
-    {
-        "emoji": "flag-am",
-        "name": "Armenia",
-        "latitude": 40.069099,
-        "longitude": 45.038189
-    },
-    {
-        "emoji": "flag-ar",
-        "name": "Argentina",
-        "latitude": -38.416096,
-        "longitude": -63.616673
-    },
-    {
-        "emoji": "flag-at",
-        "name": "Austria",
-        "latitude": 47.516232,
-        "longitude": 14.550072
-    },
-    {
-        "emoji": "flag-au",
-        "name": "Australia",
-        "latitude": -25.274399,
-        "longitude": 133.775131
-    },
-    {
-        "emoji": "flag-az",
-        "name": "Azerbaiyán",
-        "latitude": 40.143105,
-        "longitude": 47.576927
-    },
-    {
-        "emoji": "flag-ba",
-        "name": "Bosnia y Herzegovina",
-        "latitude": 43.858181,
-        "longitude": 18.412340
-    },
-    {
-        "emoji": "flag-be",
-        "name": "Bélgica",
-        "latitude": 50.503887,
-        "longitude": 4.469936
-    },
-    {
-        "emoji": "flag-bg",
-        "name": "Bulgaria",
-        "latitude": -35.026530,
-        "longitude": 146.950660
-    },
-    {
-        "emoji": "flag-bo",
-        "name": "Bolivia",
-        "latitude": -16.290154,
-        "longitude": -63.588654
-    },
-    {
-        "emoji": "flag-br",
-        "name": "Brasil",
-        "latitude": -14.235004,
-        "longitude": -51.925282
-    },
-    {
-        "emoji": "flag-by",
-        "name": "Bielorrusia",
-        "latitude": 42.887800,
-        "longitude": 25.320730
-    },
-    {
-        "emoji": "flag-ca",
-        "name": "Canadá",
-        "latitude": 56.130367,
-        "longitude": -106.346771 
-    },
-    {
-        "emoji": "flag-ch",
-        "name": "Suiza",
-        "latitude": 38.562908,
-        "longitude": -91.471107
-    },
-    {
-        "emoji": "flag-cl",
-        "name": "Chile",
-        "latitude": -35.675148,
-        "longitude": -71.542969 
-    },
-    {
-        "emoji": "flag-cn",
-        "name": "China",
-        "latitude": 35.861660,
-        "longitude": 104.195396
-    },
-    {
-        "emoji": "flag-co",
-        "name": "Colombia",
-        "latitude": 4.570868,
-        "longitude": -74.297333
-    },
-    {
-        "emoji": "flag-cu",
-        "name": "Cuba",
-        "latitude": 21.521757,
-        "longitude": -77.781166
-    },
-    {
-        "emoji": "flag-cz",
-        "name": "República Checa",
-        "latitude": 50.075539,
-        "longitude": 14.437800
-    },
-    {
-        "emoji": "flag-dk",
-        "name": "Dinamarca",
-        "latitude": 56.263920,
-        "longitude": 9.501785
-    },
-    {
-        "emoji": "flag-do",
-        "name": "República Dominicana",
-        "latitude": 18.472019,
-        "longitude": -69.902031
-    },
-    {
-        "emoji": "flag-ee",
-        "name": "Estonia",
-        "latitude": 58.595272,
-        "longitude": 25.013607
-    },
-    {
-        "emoji": "flag-eg",
-        "name": "Egipto",
-        "latitude": 26.820553,
-        "longitude": 30.802498
-    },
-    {
-        "emoji": "flag-et",
-        "name": "Etiopía",
-        "latitude": 9.145000,
-        "longitude": 40.489674
-    },
-    {
-        "emoji": "flag-fi",
-        "name": "Finlandia",
-        "latitude": 61.924110,
-        "longitude": 25.748152
-    },
-    {
-        "emoji": "gb",
-        "name": "Reino Unido",
-        "latitude": 55.378052,
-        "longitude": -3.435973
-    },
-    {
-        "emoji": "flag-ge",
-        "name": "Georgia",
-        "latitude": 32.165623,
-        "longitude": -82.900078
-    },
-    {
-        "emoji": "flag-gr",
-        "name": "Grecia",
-        "latitude": 39.074207,
-        "longitude": 21.824312 
-    },
-    {
-        "emoji": "flag-gt",
-        "name": "Guatemala",
-        "latitude": 15.783471,
-        "longitude": -90.230759
-    },
-    {
-        "emoji": "flag-hn",
-        "name": "Honduras",
-        "latitude": 15.199999,
-        "longitude": -86.241905
-    },
-    {
-        "emoji": "flag-il",
-        "name": "Israel",
-        "latitude": 31.046051,
-        "longitude": 34.851612
-    },
-    {
-        "emoji": "flag-ke",
-        "name": "Kenya",
-        "latitude": -0.023559,
-        "longitude": 37.906193
-    },
-    {
-        "emoji": "jp",
-        "name": "Japón",
-        "latitude": 36.204823,
-        "longitude": 138.252930
-    },
-    {
-        "emoji": "flag-lt",
-        "name": "Lituania",
-        "latitude": 55.169437,
-        "longitude": 23.881275
-    },
-    {
-        "emoji": "flag-ma",
-        "name": "Marruecos",
-        "latitude": 31.791702,
-        "longitude": -7.092620
-    },
-    {
-        "emoji": "fr",
-        "name": "Francia",
-        "latitude": 46.227638,
-        "longitude": 2.213749
-    },
-    {
-        "emoji": "it",
-        "name": "Italia",
-        "latitude": 41.871941,
-        "longitude": 12.567380
-    },
-    {
-        "emoji": "flag-pt",
-        "name": "Portugal",
-        "latitude": 39.399872,
-        "longitude": -8.224454
-    },
-    {
-        "emoji": "us",
-        "name": "Estados Unidos",
-        "latitude": 37.0902,
-        "longitude": 95.7129
-    }
-]
+{
+    "ethnic": [
+        {
+            "emoji": "es",
+            "name": "España",
+            "latitude": 40.463669,
+            "longitude": -3.749220
+        },
+        {
+            "emoji": "flag-ad",
+            "name": "Andorra",
+            "latitude": 42.506287,
+            "longitude": 1.521801
+        },
+        {
+            "emoji": "es",
+            "name": "Afganistán",
+            "latitude": 33.939110,
+            "longitude": 67.709953
+        },
+        {
+            "emoji": "flag-ae",
+            "name": "Emiratos Árabes Unidos",
+            "latitude": 24.488180,
+            "longitude": 54.354950
+        },
+        {
+            "emoji": "flag-am",
+            "name": "Armenia",
+            "latitude": 40.069099,
+            "longitude": 45.038189
+        },
+        {
+            "emoji": "flag-ar",
+            "name": "Argentina",
+            "latitude": -38.416096,
+            "longitude": -63.616673
+        },
+        {
+            "emoji": "flag-at",
+            "name": "Austria",
+            "latitude": 47.516232,
+            "longitude": 14.550072
+        },
+        {
+            "emoji": "flag-au",
+            "name": "Australia",
+            "latitude": -25.274399,
+            "longitude": 133.775131
+        },
+        {
+            "emoji": "flag-az",
+            "name": "Azerbaiyán",
+            "latitude": 40.143105,
+            "longitude": 47.576927
+        },
+        {
+            "emoji": "flag-ba",
+            "name": "Bosnia y Herzegovina",
+            "latitude": 43.858181,
+            "longitude": 18.412340
+        },
+        {
+            "emoji": "flag-be",
+            "name": "Bélgica",
+            "latitude": 50.503887,
+            "longitude": 4.469936
+        },
+        {
+            "emoji": "flag-bg",
+            "name": "Bulgaria",
+            "latitude": -35.026530,
+            "longitude": 146.950660
+        },
+        {
+            "emoji": "flag-bo",
+            "name": "Bolivia",
+            "latitude": -16.290154,
+            "longitude": -63.588654
+        },
+        {
+            "emoji": "flag-br",
+            "name": "Brasil",
+            "latitude": -14.235004,
+            "longitude": -51.925282
+        },
+        {
+            "emoji": "flag-by",
+            "name": "Bielorrusia",
+            "latitude": 42.887800,
+            "longitude": 25.320730
+        },
+        {
+            "emoji": "flag-ca",
+            "name": "Canadá",
+            "latitude": 56.130367,
+            "longitude": -106.346771
+        },
+        {
+            "emoji": "flag-ch",
+            "name": "Suiza",
+            "latitude": 46.8182,
+            "longitude": 8.2275
+        },
+        {
+            "emoji": "flag-cl",
+            "name": "Chile",
+            "latitude": -35.675148,
+            "longitude": -71.542969
+        },
+        {
+            "emoji": "flag-cn",
+            "name": "China",
+            "latitude": 35.861660,
+            "longitude": 104.195396
+        },
+        {
+            "emoji": "flag-co",
+            "name": "Colombia",
+            "latitude": 4.570868,
+            "longitude": -74.297333
+        },
+        {
+            "emoji": "flag-cu",
+            "name": "Cuba",
+            "latitude": 21.521757,
+            "longitude": -77.781166
+        },
+        {
+            "emoji": "flag-cz",
+            "name": "República Checa",
+            "latitude": 50.075539,
+            "longitude": 14.437800
+        },
+        {
+            "emoji": "flag-dk",
+            "name": "Dinamarca",
+            "latitude": 56.263920,
+            "longitude": 9.501785
+        },
+        {
+            "emoji": "flag-do",
+            "name": "República Dominicana",
+            "latitude": 18.472019,
+            "longitude": -69.902031
+        },
+        {
+            "emoji": "flag-ee",
+            "name": "Estonia",
+            "latitude": 58.595272,
+            "longitude": 25.013607
+        },
+        {
+            "emoji": "flag-eg",
+            "name": "Egipto",
+            "latitude": 26.820553,
+            "longitude": 30.802498
+        },
+        {
+            "emoji": "flag-et",
+            "name": "Etiopía",
+            "latitude": 9.145000,
+            "longitude": 40.489674
+        },
+        {
+            "emoji": "flag-fi",
+            "name": "Finlandia",
+            "latitude": 61.924110,
+            "longitude": 25.748152
+        },
+        {
+            "emoji": "gb",
+            "name": "Reino Unido",
+            "latitude": 55.378052,
+            "longitude": -3.435973
+        },
+        {
+            "emoji": "flag-ge",
+            "name": "Georgia",
+            "latitude": 32.165623,
+            "longitude": -82.900078
+        },
+        {
+            "emoji": "flag-gr",
+            "name": "Grecia",
+            "latitude": 39.074207,
+            "longitude": 21.824312
+        },
+        {
+            "emoji": "flag-gt",
+            "name": "Guatemala",
+            "latitude": 15.783471,
+            "longitude": -90.230759
+        },
+        {
+            "emoji": "flag-hn",
+            "name": "Honduras",
+            "latitude": 15.199999,
+            "longitude": -86.241905
+        },
+        {
+            "emoji": "flag-il",
+            "name": "Israel",
+            "latitude": 31.046051,
+            "longitude": 34.851612
+        },
+        {
+            "emoji": "flag-ke",
+            "name": "Kenya",
+            "latitude": -0.023559,
+            "longitude": 37.906193
+        },
+        {
+            "emoji": "jp",
+            "name": "Japón",
+            "latitude": 36.204823,
+            "longitude": 138.252930
+        },
+        {
+            "emoji": "flag-lt",
+            "name": "Lituania",
+            "latitude": 55.169437,
+            "longitude": 23.881275
+        },
+        {
+            "emoji": "flag-ma",
+            "name": "Marruecos",
+            "latitude": 31.791702,
+            "longitude": -7.092620
+        },
+        {
+            "emoji": "fr",
+            "name": "Francia",
+            "latitude": 46.227638,
+            "longitude": 2.213749
+        },
+        {
+            "emoji": "it",
+            "name": "Italia",
+            "latitude": 41.871941,
+            "longitude": 12.567380
+        },
+        {
+            "emoji": "flag-pt",
+            "name": "Portugal",
+            "latitude": 39.399872,
+            "longitude": -8.224454
+        },
+        {
+            "emoji": "us",
+            "name": "Estados Unidos",
+            "latitude": 37.0902,
+            "longitude": 95.7129
+        }
+    ]
+}
