@@ -2,7 +2,7 @@
   "expo": {
     "name": "ScanBio",
     "icon": "./assets/ic_launcher.png",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "sdkVersion": "32.0.0",
     "ios": {
       "bundleIdentifier": "xyz.gmartinb"
