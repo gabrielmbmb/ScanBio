@@ -72,6 +72,11 @@ class HomeScreen extends React.Component {
     this.scanFingerPrint();
   };
 
+  onDismiss = () => {
+    this.setState({ hasTouchSensor: false });
+    this.finishAuth();
+  };
+
   finishAuth = () => {
     this.setState({ dialogVisible: false });
     LocalAuthentication.cancelAuthenticate();
@@ -92,7 +97,8 @@ class HomeScreen extends React.Component {
       analytics, 
       sports, 
       diseases, 
-      ethnic
+      ethnic,
+      hasTouchSensor
     } = this.state;
     
     const { navigation } = this.props;
@@ -102,7 +108,7 @@ class HomeScreen extends React.Component {
       navigation.navigate('Calculating', {
         analytics, sports, diseases, ethnic
       });
-    } else {
+    } else if (result.error && hasTouchSensor) {
       navigation.navigate('Calculating', {
         analytics, sports, diseases, ethnic
       });    
@@ -176,7 +182,7 @@ class HomeScreen extends React.Component {
 
         <FingerDialog 
           visible={dialogVisible}
-          onDismiss={() => this.finishAuth()}
+          onDismiss={() => this.onDismiss()}
         />
       </View>
     );
