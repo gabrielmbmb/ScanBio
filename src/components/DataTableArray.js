@@ -112,10 +112,21 @@ class DataTableArray extends Component {
           </Headline>
           <Divider />
           <MapView style={styles.mapview}>
-            <MapView.Marker coordinate={{
-              latitude: 40.463669,
-              longitude: -3.749220
-            }} />
+            {
+              data.map((item, key) => {
+                return(
+                  <MapView.Marker
+                    key={key}
+                    coordinate={{
+                      latitude: item.latitude,
+                      longitude: item.longitude
+                    }}
+                    title={item.name}
+                    description={item.percentage}
+                  />
+                );
+              })
+            }
           </MapView>
           <Divider />          
           <DataTable.Header>
