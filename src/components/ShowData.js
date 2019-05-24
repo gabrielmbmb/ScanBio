@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, View, StyleSheet, Dimensions } from 'react-native';
 import { Appbar, withTheme } from 'react-native-paper';
-import { randomSports } from '../lib/Random';
+import { randomSports, randomEthnic } from '../lib/Random';
 import DataTableArray from './DataTableArray';
 
 const styles = StyleSheet.create({
@@ -51,13 +51,7 @@ class ShowData extends Component {
     },
   ];
 
-  ethnicData = [
-    {
-      emoji: 'es',
-      name: 'España',
-      percentage: '100%'
-    }
-  ];
+  ethnicData = randomEthnic();
 
   analyticsTitles = [
     {
