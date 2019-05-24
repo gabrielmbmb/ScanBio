@@ -1,6 +1,8 @@
 const Chance = require('chance');
 const Sports = require('../../data/sports.json');
 const Ethnic = require('../../data/ethnic.json');
+const Diseases = require('../../data/diseases.json');
+const Analytics = require('../../data/analytics.json');
 
 function randomSports() {
   var chance = new Chance();
@@ -72,8 +74,58 @@ function randomEthnic() {
   return randomCountries;
 }
 
+function randomDiseases() {
+  var chance = new Chance();
+  var diseasesNum = chance.integer({min: 3, max: 8});
+  var diseasesAvailable = Sports.sports.length - 1;
+  var randomDiseases = [];
+  var diseasesAlreadyUsed = [];
+
+  // select disease randomly and give to each one random probability
+  for (let i = 0; i < diseasesNum; i++) {
+    let index = chance.integer({min: 0, max: diseasesAvailable});
+    if (!diseasesAlreadyUsed.find(j => {
+      return j === index;
+    })) {
+      diseasesAlreadyUsed.push(index);
+      var randomDisease = Diseases.diseases[index];
+      randomDisease['probability'] = chance.integer({min: 5, max: 85});
+      randomDiseases.push(randomDisease);  
+    }
+  }
+
+  // sort data by probability
+  randomDiseases.sort((diseaseA, diseaseB) => 
+    diseaseA.probability < diseaseB.probability ? 1 : -1
+  );
+
+  //stringify
+  randomDiseases.forEach(disease => disease['probability'] = parseInt(disease['probability'], 10) + '%');
+
+  return randomDiseases;
+}
+
+function randomAnalytics() {
+  var chance = new Chance();
+  var namesAvailable = Analytics.analytics.length - 1;
+  var randomAnalytics = [];
+  for (let i = 0; i < namesAvailable; i++) {
+    var randomAnalytic = Analytics.analytics[i];
+    randomAnalytic['value'] = chance.floating({ 
+      min: randomAnalytic['min'], 
+      max: randomAnalytic['max'], 
+      fixed: 2 
+    }) + randomAnalytic['unit'];
+    randomAnalytics.push(randomAnalytic);
+  }
+
+  return randomAnalytics;
+}
+
 module.exports = {
   randomSports,
-  randomEthnic
+  randomEthnic,
+  randomDiseases,
+  randomAnalytics
 }
 

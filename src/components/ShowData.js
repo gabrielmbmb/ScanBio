@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, View, StyleSheet, Dimensions } from 'react-native';
 import { Appbar, withTheme } from 'react-native-paper';
-import { randomSports, randomEthnic } from '../lib/Random';
+import { randomSports, randomEthnic, randomDiseases, randomAnalytics } from '../lib/Random';
 import DataTableArray from './DataTableArray';
 
 const styles = StyleSheet.create({
@@ -64,12 +64,7 @@ class ShowData extends Component {
     }
   ];
 
-  analyticsData = [
-    {
-      name: 'Globulos',
-      value: '15mg'
-    },
-  ];
+  analyticsData = randomAnalytics();
 
   diseasesTitles = [
     {
@@ -82,12 +77,7 @@ class ShowData extends Component {
     }
   ];
 
-  diseasesData = [
-    {
-      name: 'Cancer',
-      probability: '100%'
-    }
-  ];
+  diseasesData = randomDiseases();
 
   renderSportsTable = () => {
     const { navigation } = this.props;
@@ -173,8 +163,8 @@ class ShowData extends Component {
         />
         </Appbar.Header>
         <ScrollView>
-          {this.renderSportsTable()}
           {this.renderEthnicTable()}
+          {this.renderSportsTable()}
           {this.renderAnalyticsTable()}
           {this.renderDiseasesTable()}
         </ScrollView>

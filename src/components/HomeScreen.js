@@ -45,7 +45,7 @@ class HomeScreen extends React.Component {
     this.state = {
       analytics: true,
       sports: true,
-      diseases: true,
+      diseases: false,
       ethnic: true,
       dialogVisible: false,
     };

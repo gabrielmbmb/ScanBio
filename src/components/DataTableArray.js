@@ -32,8 +32,20 @@ const styles = StyleSheet.create({
 
 class DataTableArray extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: 0
+    };
+  }
+
   renderTable() {
     const { titles, data, type } = this.props;
+    const { page } = this.state;
+
+    const itemsPerPage = 5;
+    const start = page * itemsPerPage;
+    const end = (page + 1) * itemsPerPage;
 
     if (type === 'sports') {
       return(
@@ -179,14 +191,21 @@ class DataTableArray extends Component {
             })}
           </DataTable.Header>
 
-          {data.map((item, key) => {
-            return(
-              <DataTable.Row key={key}>
-                <DataTable.Cell>{item.name}</DataTable.Cell>
-                <DataTable.Cell>{item.value}</DataTable.Cell>
-              </DataTable.Row>
-            );
-          })}
+          {data.slice(start, end).map((item, key) => (
+            <DataTable.Row key={key}>
+              <DataTable.Cell>{item.name}</DataTable.Cell>
+              <DataTable.Cell>{item.value}</DataTable.Cell>
+            </DataTable.Row>
+          ))}
+
+          <DataTable.Pagination 
+            page={page}
+            numberOfPages={Math.floor(data.length / itemsPerPage)}
+            onPageChange={page => {
+              this.setState({ page });
+            }}
+            label={`${start + 1}-${end} of ${data.length}`}
+          />
         </DataTable>
       );
     }
