@@ -1,29 +1,14 @@
 {
   "expo": {
     "name": "ScanBio",
-    "slug": "ScanBio",
-    "privacy": "public",
-    "sdkVersion": "32.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "icon": "./assets/ic_launcher.png",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "sdkVersion": "32.0.0",
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "xyz.gmartinb"
+    },
+    "android": {
+      "package": "xyz.gmartinb"
     }
   }
 }
