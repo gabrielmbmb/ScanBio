@@ -73,7 +73,7 @@ class ShowData extends Component {
     },
     {
       numeric: false,
-      title: 'Probabilidada'
+      title: 'Probabilidad'
     }
   ];
 
