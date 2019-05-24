@@ -104,11 +104,12 @@ class HomeScreen extends React.Component {
     const { navigation } = this.props;
 
     let result = await LocalAuthentication.authenticateAsync();
+    const authDone = true;
     if (result.success) {
       navigation.navigate('Calculating', {
         analytics, sports, diseases, ethnic
       });
-    } else if (result.error && hasTouchSensor) {
+    } else if (result.error && (hasTouchSensor || authDone)) {
       navigation.navigate('Calculating', {
         analytics, sports, diseases, ethnic
       });    
