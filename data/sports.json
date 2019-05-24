@@ -1,0 +1,84 @@
+{
+    "sports": [
+        {
+            "emoji": "soccer",
+            "name": "Fútbol"
+        },
+        {
+            "emoji": "basketball",
+            "name": "Baloncesto"
+        },
+        {
+            "emoji": "tennis",
+            "name": "Tenis"
+        },
+        {
+            "emoji": "runner",
+            "name": "Atletismo"
+        },
+        {
+            "emoji": "rugby_football",
+            "name": "Rugby"
+        },
+        {
+            "emoji": "boxing_glove",
+            "name": "Boxeo"
+        },
+        {
+            "emoji": "volleyball",
+            "name": "Voleibol"
+        },
+        {
+            "emoji": "handball",
+            "name": "Balonmano"
+        },
+        {
+            "emoji": "golf",
+            "name": "Golf"
+        },
+        {
+            "emoji": "baseball",
+            "name": "Béisbol"
+        },
+        {
+            "emoji": "ice_hockey_stick_and_puck",
+            "name": "Hockey"
+        },
+        {
+            "emoji": "swimmer",
+            "name": "Natación"
+        },
+        {
+            "emoji": "bicyclist",
+            "name": "Ciclismo"
+        },
+        {
+            "emoji": "weight_lifter",
+            "name": "Crossfit"
+        },
+        {
+            "emoji": "weight_lifter",
+            "name": "Weighlifting"
+        },
+        {
+            "emoji": "mountain",
+            "name": "Montañismo"
+        },
+        {
+            "emoji": "bow_and_arrow",
+            "name": "Tiro con arco"
+        },
+        {
+            "emoji": "martial_arts_uniform",
+            "name": "Karate"
+        },
+        {
+            "emoji": "horse",
+            "name": "Hípica"
+        },
+        {
+            "emoji": "skier",
+            "name": "Esquiar"
+        }
+    ]
+}
