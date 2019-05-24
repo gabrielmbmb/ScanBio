@@ -1,0 +1,233 @@
+{
+    "analytics": [
+        {
+            "name": "Plaquetas",
+            "min": 150,
+            "max": 450,
+            "unit": "x10^3/μl"
+        },
+        {
+            "name": "Glucosa Basal",
+            "min": 70,
+            "max": 100,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Ácido Úrico",
+            "min": 3.4,
+            "max": 7,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Urea Sangre",
+            "min": 17,
+            "max": 49,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Creatinina Sangre",
+            "min": 0.7,
+            "max": 1.2,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Calcio Sangre",
+            "min": 8.6,
+            "max": 10,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Fósforo Sangre",
+            "min": 2.5,
+            "max": 4.5,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Hierro",
+            "min": 33,
+            "max": 193,
+            "unit": "μg/dl"
+        },
+        {
+            "name": "Ferritina",
+            "min": 30,
+            "max": 400,
+            "unit": "ng/dl"
+        },
+        {
+            "name": "Transferrina",
+            "min": 200,
+            "max": 360,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "GPT/ALT",
+            "min": 0,
+            "max": 41,
+            "unit": "U/l"
+        },
+        {
+            "name": "GGT",
+            "min": 0,
+            "max": 60,
+            "unit": "U/dl"
+        },
+        {
+            "name": "Colesterol",
+            "min": 0,
+            "max": 200,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Trigliceridos",
+            "min": 0,
+            "max": 150,
+            "unit": "mg/dl"
+        },
+        {
+            "name": "Sodio Sangre",
+            "min": 135,
+            "max": 145,
+            "unit": "mmol/l"
+        },
+        {
+            "name": "Potasio",
+            "min": 3.5,
+            "max": 5.1,
+            "unit": "mmol/l"
+        },
+        {
+            "name": "Cloro Sangre",
+            "min": 98,
+            "max": 107,
+            "unit": "mmol/l"
+        },
+        {
+            "name": "CTFH",
+            "min": 260,
+            "max": 388,
+            "unit": "μg/dl"
+        },
+        {
+            "name": "Osmolalidad Calculada",
+            "min": 257,
+            "max": 278,
+            "unit": "mOsm/Kg"
+        },
+        {
+            "name": "CKD-EPI",
+            "min": 90,
+            "max": 1000,
+            "unit": "mL/min/1,73 m^2"
+        },
+        {
+            "name": "Hematies",
+            "min": 4,
+            "max": 6.1,
+            "unit": "x 10^6μl"
+        },
+        {
+            "name": "Hemoglobina",
+            "min": 13,
+            "max": 18,
+            "unit": "g/dl"
+        },
+        {
+            "name": "Hematocrito",
+            "min": 36,
+            "max": 52,
+            "unit": "%"
+        },
+        {
+            "name": "VCM",
+            "min": 80,
+            "max": 99,
+            "unit": "fl"
+        },
+        {
+            "name": "HCM",
+            "min": 27,
+            "max": 32,
+            "unit": "pg"
+        },
+        {
+            "name": "CHCM",
+            "min": 31.5,
+            "max": 36,
+            "unit": "g/dl"
+        },
+        {
+            "name": "RDW",
+            "min": 10.5,
+            "max": 14.5,
+            "unit": "%"
+        },
+        {
+            "name": "Leucocitos",
+            "min": 4.5,
+            "max": 10.8,
+            "unit": "x10^3/μl"
+        },
+        {
+            "name": "Neutrofilos",
+            "min": 40,
+            "max": 70,
+            "unit": "%"
+        },
+        {
+            "name": "Linfocitos",
+            "min": 20,
+            "max": 51,
+            "unit": "%"
+        },
+        {
+            "name": "Monocitos",
+            "min": 2.5,
+            "max": 10,
+            "unit": "%"
+        },
+        {
+            "name": "Eosinofilos",
+            "min": 0,
+            "max": 5,
+            "unit": "%"
+        },
+        {
+            "name": "Basofilos",
+            "min": 0,
+            "max": 1,
+            "unit": "%"
+        },
+        {
+            "name": "Neutrofilos",
+            "min": 1.4,
+            "max": 6.5,
+            "unit": "x10^3/μl"
+        },
+        {
+            "name": "Linfocitos",
+            "min": 1.2,
+            "max": 3.5,
+            "unit": "x10^3/μl"
+        },
+        {
+            "name": "Monocitos",
+            "min": 0.3,
+            "max": 0.9,
+            "unit": "x10^3/μl"
+        },
+        {
+            "name": "Eosinofilos",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "x10^3/μl"
+        },
+        {
+            "name": "Basofilos",
+            "min": 0,
+            "max": 0.1,
+            "unit": "x10^3/μl"
+        }
+    ]
+
+}

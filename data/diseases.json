@@ -1,0 +1,94 @@
+{
+    "diseases": [
+        {
+            "name": "Cardiovascular"
+        },
+        {
+            "name": "Cancer"
+        },
+        {
+            "name": "Hepatitis"
+        },
+        {
+            "name": "Respiratoria"
+        },
+        {
+            "name": "Diabetes"
+        },
+        {
+            "name": "Alzheimer"
+        },
+        {
+            "name": "Tuberculosis"
+        },
+        {
+            "name": "Cirrosis"
+        },
+        {
+            "name": "Esclerosis"
+        },
+        {
+            "name": "Esquizofrenia"
+        },
+        {
+            "name": "Estrés"
+        },
+        {
+            "name": "Asma"
+        },
+        {
+            "name": "Artrosis"
+        },
+        {
+            "name": "Alopecia"
+        },
+        {
+            "name": "Ansiedad"
+        },
+        {
+            "name": "Alergia"
+        },
+        {
+            "name": "Anemia"
+        },
+        {
+            "name": "Tendinitis"
+        },
+        {
+            "name": "Tétanos"
+        },
+        {
+            "name": "Insomnio"
+        },
+        {
+            "name": "Melanoma"
+        },
+        {
+            "name": "Miopía"
+        },
+        {
+            "name": "Hipermetropía"
+        },
+        {
+            "name": "Astigmatismo"
+        },
+        {
+            "name": "Gripe"
+        },
+        {
+            "name": "Gastroenteritis"
+        },
+        {
+            "name": "Glaucoma"
+        },
+        {
+            "name": "Sinusitis"
+        },
+        {
+            "name": "Salmonelosis"
+        },
+        {
+            "name": "Obesidad"
+        }
+    ]
+}
